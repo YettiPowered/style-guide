@@ -1,0 +1,183 @@
+/*----------------------------------------------------------------------------------------------------------------*\
+    DEFAULT TEXT
+\*----------------------------------------------------------------------------------------------------------------*/
+body {  
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em,
+.h1 em, .h2 em, .h3 em, .h4 em, .h5 em, .h6 em {
+    color: #f85006;
+}
+
+h1, .h1 {
+    font-size: 2em;
+}
+
+h2, .h2 {
+    font-size: 1.5em;
+}
+
+h3, .h3 {
+    font-size: 1.25em;
+}
+
+h4, .h4 {
+    font-size: 1.125em;
+}
+
+h5, .h5,
+h6, .h6 {
+    font-size: 1em;
+}
+
+a {
+    color: #0EB7DD;
+    text-decoration: none;
+    
+    -webkit-transition: all 0.2s ease-in;  
+    -moz-transition: all 0.2s ease-in;  
+    -ms-transition: all 0.2s ease-in;  
+    -o-transition: all 0.2s ease-in;  
+    transition: all 0.2s ease-in; 
+}
+
+a:hover {
+    color: #48D9FA;
+}
+
+.cmText ul,
+.cmText ol {
+	margin-left: 20px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    BUTTONS
+\*----------------------------------------------------------------------------------------------------------------*/
+button, 
+.button {
+    padding: 5px 10px;
+    border: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+
+    background: #0EB7DD;
+
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease-in;  
+    -moz-transition: all 0.2s ease-in;  
+    -ms-transition: all 0.2s ease-in;  
+    -o-transition: all 0.2s ease-in;  
+    transition: all 0.2s ease-in;
+    
+    opacity: 1;
+}
+
+button.cta, 
+.button.cta {
+	background: #f85006;
+}
+
+button:hover, 
+.button:hover {
+    color: #fff;
+    
+    opacity: 0.7;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    FORM ELEMENTS
+\*----------------------------------------------------------------------------------------------------------------*/
+form li {
+	margin-bottom: 20px;
+	
+	list-style: none;
+}
+	
+label {
+    width: 100%;
+    display: block;
+}
+
+label.hint {
+	display: block;
+	font-size: 0.8em;
+}
+
+.inlineLabel {
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    
+    background: #f2f2f2;
+}
+
+textarea {
+    height: 150px;
+}
+
+input:focus, 
+textarea:focus {
+    background: #fff;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    padding: 0;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+select {
+    display: block;
+}
+
+fieldset, legend {
+    border: 0;
+}
+
+form .hint {
+	display: block;
+	
+	font-size: 0.8em;
+}
+
+form .errorMessage {
+	padding: 5px;
+	border: 1px solid #E33333;
+	margin-top: 5px;
+	
+	background: #F2C2C2;
+}

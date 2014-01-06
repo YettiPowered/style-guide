@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Style guide</title>
+    
+    <link href="css/respond.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/guide.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zclip.js"></script>
+</head>
+<body>
+    <div class="row title">
+        <div class="content">
+            <div class="column-12">Style Guide</div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Logos</h1>
+                    
+                <img src="images/logo.png" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Favicons</h1>
+                    
+                <img src="images/favicon.png" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Icons</h1>
+                    
+                <img src="images/favicon.png" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="row colours">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Colours</h1>
+                    
+                <div class="colour">
+                    <div class="name">Charcoal</div>
+                    <div class="hex">#333</div>
+                    <div class="description">Main text colour</div>
+                </div>
+                
+                <div class="colour">
+                    <div class="name">Orange</div>
+                    <div class="hex">#f85006</div>
+                    <div class="description">Heading emphasis colour and important buttons</div>
+                </div>
+                
+                <div class="colour">
+                    <div class="name">Blue</div>
+                    <div class="hex">#0EB7DD</div>
+                    <div class="description">Links and default buttons</div>
+                </div>
+                
+                <div class="colour">
+                    <div class="name">Dark grey</div>
+                    <div class="hex">#CCC</div>
+                    <div class="description">Border colour</div>
+                </div>
+                
+                <div class="colour">
+                    <div class="name">Light grey</div>
+                    <div class="hex">#f2f2f2</div>
+                    <div class="description">Background colour on text inputs</div>
+                </div>
+                
+                <div class="colour">
+                    <div class="name">White</div>
+                    <div class="hex">#FFF</div>
+                    <div class="description">Background colour</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="content">
+            <div class="column-12 cmText">
+                <h1 class="h2 sectionHeader">Typography</h1>
+                    
+                <h1>Heading 1</h1>
+                <h2>Heading 2 - with <em>emphasis</em></h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                
+                <div>
+                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong> elit. Sed facilisis, leo sit amet aliquet cursus, dui mi mollis dui, 
+                    sit amet laoreet massa eros eu quam. Nunc sapien lectus, iaculis a ligula ut, ultrices porta ligula. Interdum et malesuada 
+                    fames ac ante ipsum primis in faucibus. Aenean <em>consectetur ac sapien</em> at convallis. Ut et vehicula lectus. Nam eu mauris 
+                    non turpis tristique feugiat ultricies id tellus. In hac habitasse platea dictumst. Duis ante nisi, faucibus quis pharetra 
+                    in, ullamcorper eget odio. <a href="">Donec suscipit</a> orci et velit viverra, sit amet hendrerit massa accumsan. <br /><br />
+                </div>
+                
+                <ul>
+                    <li>List item 1
+                    <li>List item 2
+                    <li>List item 3
+                </ul>
+                <br />
+                <ol>
+                    <li>List item 1
+                    <li>List item 2
+                    <li>List item 3
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Form elements</h1>
+                    
+                <form method="post" action="?submitted" class="formDynamic" novalidate>
+                    <fieldset>
+                       <ul>
+                           <li class="error">
+                                <label>
+                                    Text / email
+                                    <span class="hint">This is hint text</span>
+                                </label>
+                                <input type="text" name="text" />
+                                
+                                <div class="errorMessage">Error message here</div>
+                           </li>
+                           
+                           <li class="error">
+                                <label>
+                                    Textarea
+                                    <span class="hint">This is hint text</span>
+                                </label>
+                                <textarea name="textarea"></textarea>
+                                
+                                <div class="errorMessage">Error message here</div>
+                           </li>
+                           
+                           <li class="error">
+                                <label>
+                                    Select
+                                    <span class="hint">This is hint text</span>
+                                </label>
+                                <select name="select">
+                                    <option value="0">Please select</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                
+                                <div class="errorMessage">Error message here</div>
+                           </li>
+                           
+                           <li class="error">
+                                <label>
+                                    Checkbox
+                                    <span class="hint">This is hint text</span>
+                                </label>
+                                <input type="checkbox" name="checkbox" />
+                                
+                                <div class="errorMessage">Error message here</div>
+                           </li>
+                           
+                           <li class="error">
+                                <label>
+                                    Radio buttons
+                                    <span class="hint">This is hint text</span>
+                                </label>
+                                
+                                <input type="radio" name="radio" value="1" /> <div class="inlineLabel">Yes</div>
+                                <input type="radio" name="radio" value="0" /> <div class="inlineLabel">No</div>
+                                
+                                <div class="errorMessage">Error message here</div>
+                           </li>
+                       </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="content">
+            <div class="column-12">
+                <h1 class="h2 sectionHeader">Buttons</h1>
+                
+                <div>
+                    <a class="button">Link &raquo;</a>
+                    <a class="button cta">Link 2 &raquo;</a>
+                </div>
+                
+                <div>
+                    <button type="submit">Button &raquo;</button>
+                    <button class="cta" type="submit">Button 2 &raquo;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/guide.js" type="text/javascript"></script>
+</body>
+</html>
