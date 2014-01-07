@@ -6,15 +6,15 @@
 }
 
 .sectionHeader {
-	padding-bottom: 5px;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
+	padding-bottom: 5px !important;
+	border-bottom: 1px solid #ccc !important;
+	margin-bottom: 20px !important;
 	
-	text-align: left;
+	text-align: left !important;
 }
 
 .row {
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .row.title {
