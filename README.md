@@ -3,7 +3,7 @@
 A base for creating style guides  
   
 ###Add/edit logos & icons:
-Add the imagse to the images directory, then mark them up as usual in the html.
+Add the images to the images directory, then mark them up as usual in the HTML.
 ```html
     <img src="images/logo.png" />
 ```
