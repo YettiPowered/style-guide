@@ -121,11 +121,6 @@ label {
     display: block;
 }
 
-label.hint {
-	display: block;
-	font-size: 0.8em;
-}
-
 .inlineLabel {
 	margin-right: 20px;
 	display: inline-block;
