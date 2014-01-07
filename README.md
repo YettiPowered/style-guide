@@ -2,13 +2,13 @@
 
 A base for creating style guides  
   
-###Add/edit logos & icons:  
+###Add/edit logos & icons:
 Add the imagse to the images directory, then mark them up as usual in the html.
 ```html
     <img src="images/logo.png" />
 ```
 
-###Add/edit colours:  
+###Add/edit colours:
 Create one block of the following HTML for each colour, then the swatch and the click to copy will be taken care of for you.
 ```html
     <div class="colour">
@@ -18,7 +18,7 @@ Create one block of the following HTML for each colour, then the swatch and the 
     </div>
 ```
 
-###Define styles:  
+###Define styles:
 Edit the styles.css and create your own styles for the typography, forms, buttons etc.  
   
 [View it in action here](http://yettipowered.github.io/style-guide/)
